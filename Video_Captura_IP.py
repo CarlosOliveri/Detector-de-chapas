@@ -21,8 +21,8 @@ y2 = 560
 x1 = 350
 x2 = 1085
 #Enlace al servidor RTSP de la marca Dahua
-PASS = "123456hik"#input("Ingrese la Contraseña Administador del dispositivo: ")
-IP = "186.0.190.133"#input("Ingrese la direccion IP: ") 
+PASS = "123456"#input("Ingrese la Contraseña Administador del dispositivo: ")
+IP = "192.168.100.2"#input("Ingrese la direccion IP: ") 
 CH = "3"#input("Ingrese el numero del canal: ")
 #URL = "rtsp://admin:"+PASS+"@"+IP+":554/cam/realmonitor?channel="+CH+"&subtype=0"
 URL = "rtsp://admin:"+PASS+"@"+IP+":554/Streaming/Channels/"+CH+"01"
